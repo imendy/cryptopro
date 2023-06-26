@@ -21,9 +21,9 @@ function Modal({setOpenModal}) {
       initial={{ x: 500, opacity: 0, scale: 0.5 }}
         animate={{ x: 0, opacity: 1, scale: 1 }}
         transition={{ duration: 1.5 }}
-      className="fixed z-30 w-[300px] h-[200px] top-0 right-5 min-[560px]:w-[500px] flex flex-col bg-gradient-to-r from-gray-400 to-black">
-      <div className="flex  justify-between  min-[560px]:px-16 md:px-40 md:p-8 border-gray-700 p-4 border-b ">
-        <h2 className="text-xl font-bold min-[560px]:text-3xl md:text-2xl">Account</h2>
+      className="fixed z-30 w-[270px] h-[200px] top-0 right-5 min-[560px]:w-[500px] flex flex-col bg-gradient-to-r from-gray-400 to-black">
+      <div className="flex  justify-between px-8  min-[560px]:px-16 md:px-40 md:p-8 border-gray-700 p-4 border-b ">
+        <h2 className="text-sm font-bold min-[560px]:text-xl md:text-xl">Account</h2>
         <MdCancel 
           onClick={() => setOpenModal(false)} 
           className="text-purple-400 w-8 h-8 duration-300 hover:opacity-40 cursor-pointer hover:rotate-90"
